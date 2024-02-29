@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body{
+   background-color: #04ff00;
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ff8000'/%3E%3Cstop offset='1' stop-color='%23ff8000' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2380e680'/%3E%3Cstop offset='1' stop-color='%2380e680' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23806680'/%3E%3Cstop offset='1' stop-color='%23806680' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ffff00'/%3E%3Cstop offset='1' stop-color='%23ffff00' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FF0000'/%3E%3Cstop offset='1' stop-color='%23FF0000' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230CF'/%3E%3Cstop offset='1' stop-color='%230CF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+   background-attachment: fixed;
+   background-size: cover;;
+    background-attachment: fixed;
+    background-size: cover;;
+    text-align: center;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #000000;
+}
+
+ #calculator {
+    max-width: 360px;
+    background-color: rgb(169, 199, 45);
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 10px 13px rgb(0, 2, 1);
+ }
+
+ #display{
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    border: rgb(149, 255, 0);
+    box-sizing: border-box;
+ }
+
+ button{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    box-shadow: 4px 5px  6px rgb(250, 0, 0);
+ }
+
+ .operator{
+    color: black;
+    background-color: aquamarine;
+ }
+
+ #ac{
+    color: rgb(0, 0, 0);
+
+ }
+
+ .equal{
+
+    color: rgb(229, 0, 0);
+    background-color: rgb(255, 255, 255);
+ }
+
+ button:hover{
+    cursor: pointer;
+ }
+
+ button:active{
+    transform: scale(.9);
+    box-shadow: burlywood 1px 2px;
+ }
+
+ footer{
+   padding: 5%;
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 24px;
+
+ }
+ 
+ .git{
+   width: 44px;
+   height: 24px;
+ }
